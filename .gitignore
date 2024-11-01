@@ -1,0 +1,12 @@
+*.o
+*.d
+*.exe
+
+# Build Directory
+build
+
+# Ctags
+tags
+
+# Vim
+*.swp
