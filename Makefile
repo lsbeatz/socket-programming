@@ -5,6 +5,7 @@ BUILD = build
 
 SRCS  = client.c
 SRCS += server_single.c
+SRCS += server_multi_process.c
 OBJS  = $(SRCS:%.c=$(BUILD)/%)
 
 all: dir $(OBJS)
